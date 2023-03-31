@@ -1,0 +1,109 @@
+.container{
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.item1{
+  float: left;
+  width: 35%;
+  background-color: rgb(4, 4, 44);
+}
+.item1 .image{
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+.item1 .image img{
+  clip-path: circle();
+  margin-top: 10%;
+}
+.education{
+  color: white;
+  margin-left: 15%;
+}
+.education h5{
+  font-size: 17px;
+}
+.education h6{
+  font-size: 14px;
+}
+.container .item2{
+  float: right;
+  width: 65%;
+}
+
+.container .item2 .myname{
+  background-color: #0ef;
+  width: 100%;
+  height: 30%;
+  padding: 10px;
+  margin-top: 5%;
+  align-items: center;
+  display: block;
+
+  justify-content: center;
+}
+.container .item2 .myname h1{
+  font-size: 28px;
+  justify-content: center;
+  display: flex;
+}
+.container .item2 .myname h4{
+  font-size: 22px;
+  justify-content: center;
+  display: flex;
+}
+.container .item2 .about-section{
+  padding-left: 20px;
+}
+.container .item2 .skills-section{
+  padding-left: 20px;
+}
+.container .item2 .skills-section ul li{
+  color: aliceblue;
+}
+.container .item2 .skills-section ul li span{
+  color: black;
+}
+.container .item2 .project-section{
+  padding-left: 20px;
+}
+.container .item2 .project-section ul li{
+  color: azure;
+}
+.container .item2 .project-section ul li a{
+  text-decoration: none;
+  color: black;
+}
+.contact{
+  color: white;
+  margin-left: 15%;
+}
+.contact h5 br{
+  display: none;
+}
+.contact h5 a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.contact h4  span a {
+  display: inline-block;
+  margin-right: 25px;
+}
+@media only screen and (max-width: 600px){
+  .item1{
+    width: 40%;
+  }
+  .gmail{
+    display: flex;
+  }
+  .container .item2{
+    width: 60%;
+  }
+  .contact h4  span a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+  }
+}
